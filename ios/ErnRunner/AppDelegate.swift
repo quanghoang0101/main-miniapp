@@ -23,13 +23,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         let config = ElectrodeContainerConfig()
-        config.debugEnabled = RunnerConfig.rnDevSupportEnabled
-        config.packagerHost = RunnerConfig.packagerHost
-        config.packagerPort = RunnerConfig.packagerPort
+        config.debugEnabled = false
         ElectrodeReactNative.start(withConfigurations: config, ernDelegate: nil)
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = MainNavigationController()
+        window?.rootViewController = AuthMiniappNavigationController()
         window?.makeKeyAndVisible()
+        
         return true
     }
 

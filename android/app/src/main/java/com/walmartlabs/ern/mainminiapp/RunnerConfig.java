@@ -11,7 +11,7 @@ import com.walmartlabs.ern.container.miniapps.MainMiniappActivity;
 
 final class RunnerConfig {
     static final Class MAIN_MINIAPP_ACTIVITY_CLASS = MainMiniappActivity.class;
-    static final boolean RN_DEV_SUPPORT_ENABLED = true;
+    static final boolean RN_DEV_SUPPORT_ENABLED = false;
     static final String PACKAGER_HOST = "localhost";
     static final String PACKAGER_PORT = "8081";
 }

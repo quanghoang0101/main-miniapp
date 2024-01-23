@@ -730,7 +730,7 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.23.8", "@babel/runtime@^7.8.4":
   version "7.23.8"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.8.tgz#8ee6fe1ac47add7122902f257b8ddf55c898f650"
   integrity sha512-Y7KbAP984rn1VGMbGqKmBLio9V7y5Je9GvU4rQPCPinCyNfUcToxIXl06d59URp/F3LwinvODxab5N/G6qggkw==
@@ -6190,13 +6190,19 @@ react-native-codegen@^0.0.18:
     jscodeshift "^0.13.1"
     nullthrows "^1.1.1"
 
-react-native-electrode-bridge@^1.5.27:
+react-native-electrode-bridge@^1.5.27, react-native-electrode-bridge@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/react-native-electrode-bridge/-/react-native-electrode-bridge-1.6.0.tgz#e239912373562a3bca557213930ca34e42c7f5ee"
   integrity sha512-7cPNt55qPxJH6FwgGjTHMEPu05Rf+dKIQH9YGaT4+ASqWnHU3E/Yy20HiePOKJUhexrMp4pN7iulLhTGBRi1ug==
   dependencies:
     events "^1.1.1"
     uuid "^3.0.0"
+
+"react-native-ewallet-navigation-api@https://github.com/quanghoang0101/react-native-ewallet-navigation-api":
+  version "1.0.0"
+  resolved "https://github.com/quanghoang0101/react-native-ewallet-navigation-api#5b48d859a9d7e1e07b98fadf775f0264c17bb1ee"
+  dependencies:
+    react-native-electrode-bridge "^1.6.0"
 
 react-native-gradle-plugin@^0.0.6:
   version "0.0.6"
